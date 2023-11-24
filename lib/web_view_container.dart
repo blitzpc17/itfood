@@ -14,7 +14,7 @@ class _WebViewContainerState extends State<WebViewContainer> {
   ..setJavaScriptMode(JavaScriptMode.unrestricted)
   ..clearCache()  
   ..clearLocalStorage()
-  ..loadRequest(Uri.parse('https://spartan-lycos.online/admin/login'));
+  ..loadRequest(Uri.parse('https://spartan-lycos.online/customer/login'));
 
   
 
