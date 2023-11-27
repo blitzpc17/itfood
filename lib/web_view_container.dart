@@ -20,11 +20,8 @@ class _WebViewContainerState extends State<WebViewContainer> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      /*appBar: AppBar(
-        title: const Text("Webvie container"),
-      ),*/
-      body: WebViewWidget(controller: controller),
+    return SafeArea(
+      child: WebViewWidget(controller: controller),    
     );
   }
 
